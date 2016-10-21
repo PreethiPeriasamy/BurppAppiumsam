@@ -30,7 +30,7 @@ public class BurppTables {
 			capability.setCapability("platformVersion", "4.4.2");
 			capability.setCapability("appPackage", "kot.burpp");
 			capability.setCapability("appActivity", "kot.burpp.SplashScreenlogin");
-			dr = new AndroidDriver(new URL("http://192.168.1.3:4723/wd/hub"),capability);
+			dr = new AndroidDriver(new URL("http://192.168.1.18:4725/wd/hub"),capability);
 		}
 			
 		@BeforeMethod
